@@ -1,3 +1,27 @@
-vocabulary/ORBvoc.txt
-config/isaac
-launch
+# =========================
+# ROS2 build artifacts
+# =========================
+build/
+install/
+log/
+
+# =========================
+# ORB-SLAM3 binaries
+# =========================
+*.so
+*.a
+*.o
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Editor / OS junk
+# =========================
+.vscode/
+.DS_Store
+Thumbs.db
+
